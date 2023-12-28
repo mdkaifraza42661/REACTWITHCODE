@@ -1,8 +1,9 @@
-
+import New from "./About";
 function App() {
   return (
     <>
-      <h1>hellow create react with npx create-react-app</h1>
+      <New />
+      <h1>hellow create react with npx create-react-app </h1>
     </>
   );
 }
