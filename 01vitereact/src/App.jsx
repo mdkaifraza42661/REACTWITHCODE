@@ -1,14 +1,16 @@
 
-import Code from "./code"
+import Chai from "./chai"
+
 
 function App() {
-
+  const username = "chai aur code"
 
   return (
     <>
-      <p>when we create the components always in capitals letter and use extention in jsx mens file name framework nextjs</p>
-      <p>follow xlm rule when you use multiple number or components use Fragment </p>
-      <Code />
+      {/* {username} :- expression evaluate expression(final outcome) */}
+      <Chai />
+      <h1>chai aur react {username}</h1>
+      <p>test para</p>
     </>
   )
 }
