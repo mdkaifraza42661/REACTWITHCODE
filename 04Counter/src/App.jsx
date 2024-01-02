@@ -13,6 +13,20 @@ function App() {
     if(Counter < 20) {
       // setCounter(0)
       setCounter(Counter + 1)
+      // value not update
+      setCounter(Counter + 1)
+      setCounter(Counter + 1)
+      setCounter(Counter + 1)
+      setCounter(Counter + 1)
+      setCounter(Counter + 1)
+      // arrow funtion inside value update
+      setCounter(Counter => Counter + 1)
+      setCounter(Counter => Counter + 1)
+      setCounter(Counter => Counter + 1)
+      setCounter(Counter => Counter + 1)
+
+
+
     }
     // console.log(Counter = Counter + 1);
     // console.log("upvalue", Math.random());
