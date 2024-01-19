@@ -13,3 +13,10 @@ export const CounterProvider = (props) => {
         </CounterContext.Provider>
     )
 }
+
+
+
+// example
+// 🧨 context (werehouse)
+// 🧨 Provider (delivery boy/gril)
+// 🧨 Comsumer (me)
